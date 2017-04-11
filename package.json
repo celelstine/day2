@@ -1,0 +1,30 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "console an to search for meaning of words  on wordnik",
+  "main": "dictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celelstine/day2.git"
+  },
+  "keywords": [
+    "wiki",
+    "wikipedia"
+  ],
+  "author": "okorocelestine@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celelstine/day2/issues"
+  },
+  "homepage": "https://github.com/celelstine/day2#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "inquirer": "^3.0.6"
+  },
+  "bin": {
+  "search": "./dictionary.js"
+  }
+}
